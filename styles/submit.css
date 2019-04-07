@@ -1,20 +1,15 @@
 .topnav {
   overflow: hidden;
   background-color: #ffffff;
-  position: fixed;
+  position: relative;
   font-family: poppins;
   font-weight: 600;
-    font-size: 350%;
-    height: 150px;
-    width: 100%;
-   margin-top: 0%;
-    
-   
 }
 
 .topnav #myLinks {
   display: none;
   color: #ffffff;
+    padding-bottom: 55%;
 }
 
 .topnav a {
@@ -22,26 +17,28 @@
   padding: 14px 16px;
   text-decoration: none;
   text-align: center;
-  font-size: 100%;
+  font-size: 350%;
   display: block;
+  box-shadow: 5px;
+  height:50%;
   background-color: #ffffff;
   
 }
 
 .topnav a.icon {
   display: block;
-  position: fixed;
-    margin-left: 6%;
-    margin-top: 1%;
+  position: absolute;
   left: 0;
   top: 0;
+    margin-left: 5%;
 
 }
 
 
 .active {
-  background-color: #ffffff;
+  background-color: #666666;
   color: #ffffff;
+    
 }
 
 h1 {
